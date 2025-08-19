@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvin Gatoho - Creative IT Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Mobile-First Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo" id="typing-logo"></div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Marvin Gatoho</h1>
+                <p class="hero-subtitle">IT Student & Creative Developer</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="scroll-down" onclick="scrollToSection('about')">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+<script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="OV4dVP6KzDJFg7lhTMAD3";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me and my journey in technology</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="marvin.png" alt="Marvin Gatoho" class="profile-img">
+                </div>
+                
+                <div class="about-text">
+                    <p>Hello there! I'm <strong>Marvin Gatoho</strong>, a passionate IT student with a love for creating innovative digital solutions. My journey in technology began when I was fascinated by how computers could solve complex problems with just a few lines of code.</p>
+                    
+                    <p>I specialize in <strong>web development</strong> and <strong>UI/UX design</strong>. My approach combines technical expertise with creative problem-solving to build applications that are not only functional but also visually appealing and user-friendly.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-html5"></i> HTML5 & CSS3</li>
+                        <li><i class="fab fa-js"></i> JavaScript (ES6+)</li>
+                        <li><i class="fab fa-react"></i> React.js</li>
+                        <li><i class="fab fa-vuejs"></i> Vue.js</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="skill-title">Backend Development</h3>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-node-js"></i> Node.js</li>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fas fa-database"></i> MongoDB</li>
+                        <li><i class="fas fa-database"></i> MySQL</li>
+                    </ul>
+                </div>
+                
+             
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="skill-title">UI/UX Design</h3>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-figma"></i> Figma</li>
+                        <li><i class="fas fa-pencil-ruler"></i> Adobe XD</li>
+                        <li><i class="fas fa-palette"></i> Color Theory</li>
+                        <li><i class="fas fa-users"></i> User Research</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Check out some of my recent work</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="400.jpg" alt="Project 1" style="height: 250x;" width="400px">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CBC Learning Platform</h3>
+                        <p class="project-description">Interactive learning platform with 3D visualizations and gamification elements.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="bino.jpg" alt="Project 2" style="height: 250x;" width="400px">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sports Scouting Platform</h3>
+                        <p class="project-description">IoT dashboard for monitoring and controlling smart home devices with real-time data.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">IoT</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="camera.jpg" alt="Project 3" style="height: 250x;" width="400px">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Photography platform</h3>
+                        <p class="project-description">Augmented reality app for university campus navigation with interactive directions.</p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">AR.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic journey and certifications</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor in Business and Information Technology</h3>
+                        <h4>Mount Kenya University</h4>
+                        <p>Focusing on software development, AI, and human-computer interaction.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Full-Stack Web Development Bootcamp</h3>
+                        <h4>Tech Academy</h4>
+                        <p>Intensive 12-week program covering modern web technologies and agile methodologies.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>AWS Cloud Practitioner</h3>
+                        <h4>Amazon Web Services</h4>
+                        <p>Certification validating cloud expertise and AWS infrastructure knowledge.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss how we can work together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>gatohomarvin@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+254 114 720 812</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Marvin-njuguna" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/marvin-gatoho-b87309354/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/" class="social-link x-icon">𝕏</a>
+
+                        <a href="https://www.instagram.com/" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+               
+                
+                
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/xqabzejo" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button> <br><br>
+                      <button type="reset" class="btn btn-primary">
+        <i class="fas fa-eraser"></i> Clear
+    </button>
+                </form>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+   <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">Marvin Gatoho</div>
+            <p class="footer-text">Creating innovative digital experiences that combine technology and creativity.</p>
+            
+            <div class="footer-links">
+                <a href="#home" class="footer-link">Home</a>
+                <a href="#about" class="footer-link">About</a>
+                <a href="#skills" class="footer-link">Skills</a>
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#education" class="footer-link">Education</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            
+            <div class="footer-social">
+                <div class="social-links">
+                    <a href="https://github.com/Marvin-njuguna" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/marvin-gatoho-b87309354/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/" class="social-link x-icon">𝕏</a>
+                    <a href="https://www.instagram.com/" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <p class="copyright">&copy; 2023 Marvin Gatoho. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<br><br>
+    <script>
+
+
+
+// Continuous typing animation for nav logo
+function continuousTypeWriter() {
+    const text = "Marvin Gatoho";
+    const logoElement = document.getElementById('typing-logo');
+    let i = 0;
+    let isDeleting = false;
+    
+    function typeAndDelete() {
+        if (!isDeleting && i < text.length) {
+            // Typing phase
+            logoElement.textContent += text.charAt(i);
+            i++;
+            setTimeout(typeAndDelete, 150); // Typing speed
+        } else if (!isDeleting && i === text.length) {
+            // Pause after typing complete
+            setTimeout(() => {
+                isDeleting = true;
+                typeAndDelete();
+            }, 2000); // Pause duration (2 seconds)
+        } else if (isDeleting && i > 0) {
+            // Deleting phase
+            logoElement.textContent = text.substring(0, i - 1);
+            i--;
+            setTimeout(typeAndDelete, 100); // Deleting speed (faster)
+        } else if (isDeleting && i === 0) {
+            // Pause before retyping
+            isDeleting = false;
+            setTimeout(typeAndDelete, 500); // Pause before retyping
+        }
+    }
+    
+    // Start the continuous animation
+    setTimeout(typeAndDelete, 500); // Initial delay
+}
+
+// Initialize continuous typing animation
+document.addEventListener('DOMContentLoaded', continuousTypeWriter);
+
+
+
+
+//ongeza tilt kidogo 
+if (window.innerWidth > 768) {
+    const cards = document.querySelectorAll('.stat-item, .project-card, .contact-info, .contact-form');
+    
+    cards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            
+            const rotateX = (y - centerY) / 10;
+            const rotateY = (centerX - x) / 10;
+            
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px) scale(1.02)`;
+        });
+        
+        card.addEventListener('mouseleave', () => {
+            card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0) scale(1)';
+        });
+    });
+}
+
+// Parallax effect for background elements
+window.addEventListener('scroll', () => {
+    const scrolled = window.pageYOffset;
+    const parallaxElements = document.querySelectorAll('#about::before, #projects::before, #contact::before');
+    
+    parallaxElements.forEach(element => {
+        const speed = 0.5;
+        element.style.transform = `translateY(${scrolled * speed}px)`;
+    });
+});
+
+
+
+
+
+// Add particle animation effect
+
+
+
+
+
+
+function createParticles() {
+    const darkSections = document.querySelectorAll('#about, #projects, #contact');
+    
+    darkSections.forEach(section => {
+        section.style.position = 'relative';
+        
+        for (let i = 0; i < 25; i++) { // Increased number of particles
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            
+            // More vibrant colors
+            const colors = [
+                'rgba(108, 99, 255, 0.8)',
+                'rgba(255, 101, 132, 0.8)', 
+                'rgba(67, 206, 162, 0.8)',
+                'rgba(255, 193, 7, 0.7)',
+                'rgba(156, 39, 176, 0.7)'
+            ];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            
+            // Larger, more visible particles
+            const size = 6 + Math.random() * 4; // 6-10px particles
+            
+            particle.style.cssText = `
+                position: absolute;
+                width: ${size}px;
+                height: ${size}px;
+                background: ${randomColor};
+                border-radius: 50%;
+                left: ${Math.random() * 100}%;
+                top: ${Math.random() * 100}%;
+                animation: particleFloat ${4 + Math.random() * 6}s ease-in-out infinite;
+                animation-delay: ${Math.random() * 3}s;
+                pointer-events: none;
+                z-index: 1;
+                box-shadow: 0 0 15px ${randomColor}, 0 0 30px ${randomColor};
+                filter: blur(0.5px);
+            `;
+            section.appendChild(particle);
+        }
+    });
+}
+
+// Enhanced CSS for more visible particle animation
+const particleStyle = document.createElement('style');
+particleStyle.textContent = `
+    @keyframes particleFloat {
+        0%, 100% {
+            transform: translateY(0px) translateX(0px) rotate(0deg) scale(1);
+            opacity: 0.6;
+        }
+        25% {
+            transform: translateY(-40px) translateX(20px) rotate(90deg) scale(1.2);
+            opacity: 1;
+        }
+        50% {
+            transform: translateY(-30px) translateX(-25px) rotate(180deg) scale(0.8);
+            opacity: 0.9;
+        }
+        75% {
+            transform: translateY(-50px) translateX(15px) rotate(270deg) scale(1.1);
+            opacity: 0.8;
+        }
+    }
+    
+    .particle {
+        will-change: transform, opacity;
+    }
+    
+    /* Ensure particles are highly visible */
+    #about .particle,
+    #projects .particle,
+    #contact .particle {
+        position: absolute !important;
+        z-index: 1 !important;
+    }
+    
+    /* Enhanced glowing orbs */
+    .glow-orb {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(2px);
+        animation: orbFloat 10s ease-in-out infinite;
+        pointer-events: none;
+        z-index: 1;
+    }
+    
+    @keyframes orbFloat {
+        0%, 100% {
+            transform: translateY(0px) scale(1) rotate(0deg);
+            opacity: 0.4;
+        }
+        33% {
+            transform: translateY(-60px) scale(1.3) rotate(120deg);
+            opacity: 0.8;
+        }
+        66% {
+            transform: translateY(-30px) scale(0.9) rotate(240deg);
+            opacity: 0.6;
+        }
+    }
+    
+    /* Pulsing effect for extra visibility */
+    @keyframes pulse {
+        0%, 100% {
+            transform: scale(1);
+            opacity: 0.7;
+        }
+        50% {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+    }
+`;
+document.head.appendChild(particleStyle);
+
+// Create larger, more visible glowing orbs
+function createGlowOrbs() {
+    const darkSections = document.querySelectorAll('#about, #projects, #contact');
+    
+    darkSections.forEach(section => {
+        for (let i = 0; i < 5; i++) { // More orbs
+            const orb = document.createElement('div');
+            orb.className = 'glow-orb';
+            
+            const size = 40 + Math.random() * 60; // Larger orbs
+            const colors = [
+                'rgba(108, 99, 255, 0.4)',
+                'rgba(255, 101, 132, 0.4)', 
+                'rgba(67, 206, 162, 0.4)',
+                'rgba(255, 193, 7, 0.3)',
+                'rgba(156, 39, 176, 0.3)'
+            ];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            
+            orb.style.cssText = `
+                position: absolute;
+                width: ${size}px;
+                height: ${size}px;
+                background: radial-gradient(circle, ${randomColor} 0%, transparent 70%);
+                left: ${Math.random() * 90}%;
+                top: ${Math.random() * 90}%;
+                animation: orbFloat ${8 + Math.random() * 6}s ease-in-out infinite;
+                animation-delay: ${Math.random() * 3}s;
+                pointer-events: none;
+                z-index: 1;
+                box-shadow: 0 0 20px ${randomColor};
+            `;
+            section.appendChild(orb);
+        }
+    });
+}
+
+// Create shooting stars effect
+function createShootingStars() {
+    const darkSections = document.querySelectorAll('#about, #projects, #contact');
+    
+    darkSections.forEach(section => {
+        for (let i = 0; i < 3; i++) {
+            const star = document.createElement('div');
+            star.className = 'shooting-star';
+            
+            star.style.cssText = `
+                position: absolute;
+                width: 2px;
+                height: 2px;
+                background: rgba(255, 255, 255, 0.9);
+                border-radius: 50%;
+                left: ${Math.random() * 100}%;
+                top: ${Math.random() * 100}%;
+                animation: shootingStar ${3 + Math.random() * 4}s linear infinite;
+                animation-delay: ${Math.random() * 5}s;
+                pointer-events: none;
+                z-index: 1;
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+            `;
+            section.appendChild(star);
+        }
+    });
+}
+
+// Add shooting star animation
+const shootingStarStyle = document.createElement('style');
+shootingStarStyle.textContent = `
+    @keyframes shootingStar {
+        0% {
+            transform: translateX(-100px) translateY(100px) scale(0);
+            opacity: 0;
+        }
+        10% {
+            transform: translateX(-50px) translateY(50px) scale(1);
+            opacity: 1;
+        }
+        90% {
+            transform: translateX(200px) translateY(-200px) scale(1);
+            opacity: 1;
+        }
+        100% {
+            transform: translateX(300px) translateY(-300px) scale(0);
+            opacity: 0;
+        }
+    }
+`;
+document.head.appendChild(shootingStarStyle);
+
+// Initialize enhanced particles
+if (window.innerWidth > 768) {
+    setTimeout(() => {
+        createParticles();
+        createGlowOrbs();
+        createShootingStars();
+    }, 500);
+} else {
+    // Enhanced mobile particles
+    setTimeout(() => {
+        const darkSections = document.querySelectorAll('#about, #projects, #contact');
+        
+        darkSections.forEach(section => {
+            section.style.position = 'relative';
+            
+            for (let i = 0; i < 10; i++) { // More particles on mobile too
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                
+                const colors = [
+                    'rgba(108, 99, 255, 0.7)',
+                    'rgba(255, 101, 132, 0.7)', 
+                    'rgba(67, 206, 162, 0.7)'
+                ];
+                const randomColor = colors[Math.floor(Math.random() * colors.length)];
+                
+                particle.style.cssText = `
+                    position: absolute;
+                    width: 5px;
+                    height: 5px;
+                    background: ${randomColor};
+                    border-radius: 50%;
+                    left: ${Math.random() * 100}%;
+                    top: ${Math.random() * 100}%;
+                    animation: particleFloat ${5 + Math.random() * 3}s ease-in-out infinite;
+                    animation-delay: ${Math.random() * 2}s;
+                    pointer-events: none;
+                    z-index: 1;
+                    box-shadow: 0 0 10px ${randomColor};
+                `;
+                section.appendChild(particle);
+            }
+        });
+    }, 500);
+}
+
+// Enhanced interactive particles
+function createInteractiveParticles() {
+    if (window.innerWidth <= 768) return;
+    
+    const darkSections = document.querySelectorAll('#about, #projects, #contact');
+    
+    darkSections.forEach(section => {
+        section.addEventListener('mousemove', (e) => {
+            if (Math.random() > 0.8) { // More frequent particle creation
+                const particle = document.createElement('div');
+                
+                const colors = [
+                    'rgba(108, 99, 255, 0.9)',
+                    'rgba(255, 101, 132, 0.9)', 
+                    'rgba(67, 206, 162, 0.9)'
+                ];
+                const randomColor = colors[Math.floor(Math.random() * colors.length)];
+                
+                particle.style.cssText = `
+                    position: absolute;
+                    width: 4px;
+                    height: 4px;
+                    background: ${randomColor};
+                    border-radius: 50%;
+                    left: ${e.offsetX}px;
+                    top: ${e.offsetY}px;
+                    pointer-events: none;
+                    z-index: 1;
+                    animation: fadeOutEnhanced 3s ease-out forwards;
+                    box-shadow: 0 0 15px ${randomColor};
+                `;
+                
+                section.appendChild(particle);
+                
+                setTimeout(() => {
+                    if (particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }, 3000);
+            }
+        });
+    });
+}
+
+// Enhanced fadeOut animation
+const enhancedInteractiveStyle = document.createElement('style');
+enhancedInteractiveStyle.textContent = `
+    @keyframes fadeOutEnhanced {
+        0% {
+            opacity: 1;
+            transform: scale(1) rotate(0deg);
+        }
+        50% {
+            opacity: 0.8;
+            transform: scale(1.5) rotate(180deg);
+        }
+        100% {
+            opacity: 0;
+            transform: scale(0) translateY(-80px) rotate(360deg);
+        }
+    }
+`;
+document.head.appendChild(enhancedInteractiveStyle);
+
+setTimeout(() => {
+    createInteractiveParticles();
+}, 1000);
+
+
+
+
+
+
+
+// Initialize particles and orbs
+if (window.innerWidth > 768) {
+    // Wait a bit for the page to load
+    setTimeout(() => {
+        createParticles();
+        createGlowOrbs();
+    }, 500);
+} else {
+    // On mobile, create fewer and simpler particles
+    setTimeout(() => {
+        const darkSections = document.querySelectorAll('#about, #projects, #contact');
+        
+        darkSections.forEach(section => {
+            section.style.position = 'relative';
+            
+            for (let i = 0; i < 5; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                
+                particle.style.cssText = `
+                    position: absolute;
+                    width: 3px;
+                    height: 3px;
+                    background: rgba(108, 99, 255, 0.3);
+                    border-radius: 50%;
+                    left: ${Math.random() * 100}%;
+                    top: ${Math.random() * 100}%;
+                    animation: particleFloat ${5 + Math.random() * 3}s ease-in-out infinite;
+                    animation-delay: ${Math.random() * 2}s;
+                    pointer-events: none;
+                    z-index: 1;
+                `;
+                section.appendChild(particle);
+            }
+        });
+    }, 500);
+}
+
+// Add some interactive particles that follow mouse movement
+let mouseX = 0;
+let mouseY = 0;
+
+document.addEventListener('mousemove', (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+});
+
+function createInteractiveParticles() {
+    if (window.innerWidth <= 768) return; // Skip on mobile
+    
+    const darkSections = document.querySelectorAll('#about, #projects, #contact');
+    
+    darkSections.forEach(section => {
+        section.addEventListener('mousemove', (e) => {
+            if (Math.random() > 0.9) { // Only create particles occasionally
+                const particle = document.createElement('div');
+                particle.style.cssText = `
+                    position: absolute;
+                    width: 2px;
+                    height: 2px;
+                    background: rgba(108, 99, 255, 0.6);
+                    border-radius: 50%;
+                    left: ${e.offsetX}px;
+                    top: ${e.offsetY}px;
+                    pointer-events: none;
+                    z-index: 1;
+                    animation: fadeOut 2s ease-out forwards;
+                `;
+                
+                section.appendChild(particle);
+                
+                // Remove particle after animation
+                setTimeout(() => {
+                    if (particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }, 2000);
+            }
+        });
+    });
+}
+
+// Add fadeOut animation for interactive particles
+const interactiveStyle = document.createElement('style');
+interactiveStyle.textContent = `
+    @keyframes fadeOut {
+        0% {
+            opacity: 1;
+            transform: scale(1);
+        }
+        100% {
+            opacity: 0;
+            transform: scale(0) translateY(-50px);
+        }
+    }
+`;
+document.head.appendChild(interactiveStyle);
+
+// Initialize interactive particles
+setTimeout(() => {
+    createInteractiveParticles();
+}, 1000);
+
+
+
+//ongeza tilt kidogo 
+
+        // Mobile Navigation Toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navMenu = document.querySelector('.nav-menu');
+
+        mobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('is-active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('is-active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const navHeight = document.querySelector('.navbar').offsetHeight;
+                    const targetPosition = target.offsetTop - navHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Scroll to section function
+        function scrollToSection(sectionId) {
+            const target = document.getElementById(sectionId);
+            if (target) {
+                const navHeight = document.querySelector('.navbar').offsetHeight;
+                const targetPosition = target.offsetTop - navHeight;
+                
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Active navigation link highlighting
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navHeight = document.querySelector('.navbar').offsetHeight;
+            
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - navHeight - 100;
+                const sectionHeight = section.clientHeight;
+                
+                if (window.pageYOffset >= sectionTop && window.pageYOffset < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        //form submission script
+
+
+        
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for animations
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Observe skill cards and project cards
+        document.querySelectorAll('.skill-card, .project-card, .timeline-item').forEach(item => {
+            observer.observe(item);
+        });
+    </script>
+</body>
+</html>
